@@ -1,0 +1,65 @@
+@media screen and (max-width: 768px) {
+  * {
+    margin: 0px;
+    padding: 0px;
+  }
+  .navbar .nav_item {
+    display: none;
+  }
+
+  .hamburger-menu {
+    display: flex;
+  }
+
+  .flex_container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .logo_wrapper {
+    margin-bottom: 20px;
+  }
+
+  .navbar {
+    justify-content: center;
+  }
+
+  .navbar.active .nav_item {
+    display: block;
+  }
+
+  .rounded_card {
+    max-width: 100%;
+  }
+
+  .navbar {
+    max-width: 100%;
+    margin: auto;
+  }
+  .profile_image {
+    max-width: 80%;
+    height: 300px;
+    width: 1000px;
+    border-radius: 50%;
+  }
+
+  html,
+  body {
+    padding: 5px;
+  }
+
+  .flex_container {
+    margin: 5px;
+  }
+
+  .contact_image {
+    margin-bottom: 20px;
+  }
+
+  #contactus {
+    width: auto;
+  }
+  .footer {
+    width: auto;
+  }
+}

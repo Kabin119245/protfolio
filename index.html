@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="./index.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./styles/index.css" />
+    <link rel="stylesheet" href="./styles/mobile.css" />
+    <title>Kabin Giri's Protfolio</title>
+  </head>
+  <body>
+    <div
+      class="navbar flex_container justifier_navbar"
+      style="align-items: center"
+    >
+
+
+      <div class="logo_wrapper">KABIN</div>
+      <div>
+        <div class="flex_container" style="gap: 20px">
+         
+<div class="hamburger-menu" onclick="toggleMenu()">
+  <div class="bar"></div>
+  <div class="bar"></div>
+  <div class="bar"></div>
+</div>
+
+          <div class="nav_item">
+            <a href="./index.html" style="color: var(--primary)">Home</a>
+          </div>
+          <div class="nav_item">
+            <a href="#projects" style="color: var(--primary)">Projects</a>
+          </div>
+          <div class="nav_item">
+            <a href="#whatido" style="color: var(--primary)">Services</a>
+          </div>
+          <div class="nav_item">
+            <a href="#contact_id" style="color: var(--primary)">Contact</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div style="background-color: var(--background)">
+      <div
+        class="flex_container"
+        style="
+          padding-top: 40px;
+          padding-bottom: 40px;
+          justify-content: space-between;
+          align-items: center;
+          max-width: 900px;
+          margin: auto;
+        "
+      >
+        <div>
+          <b style="color: darkgrey">Hi, I am</b>
+          <div
+            style="font-size: 40px; font-weight: bold; color: var(--primary)"
+          >
+            Kabin Giri
+          </div>
+          <br />
+          <div
+            class="introtext"
+            style="
+              font-size: 14px;
+              line-height: 20px;
+              color: #434343;
+              text-align: left;
+            "
+          >
+            Hi! I’m Kabin Giri. I'm a student of Advanced College of Engineering
+            and Management, and I want to get into the field of Machine Learning
+            and Artificial Intelligence. I love programming.
+            <br /><br />
+
+            I’ve been working on my portfolio since 1st Year, but now it’s time
+            to show the world what I’ve got. And that’s why I’ve created this
+            website—so you can see my work so far and get a sense of who I am as
+            a programmer. If you’d like to learn more about me, you can also
+            follow me on social media at [social media profile URLs]. Best
+            wishes,
+            <div><br /><a href="#contact_id"><button class="primary_button">Contact Me</button></a></div>
+          </div>
+        </div>
+        <div class="profile_image" style="position: relative;">
+          <div style = "position: absolute;top:0; right:30px; height:40px; width: 40px; background: var(--primary); border-radius: 50%"></div>
+        </div>
+      </div>
+    </div>
+    <div class="divider"></div>
+    <div id = "whatido" style="max-width: 1000px; margin: auto; text-align: center">
+      <div
+        style="
+          font-size: 30px;
+          font-weight: bold;
+          color: var(--primary);
+          margin-top: 20px;
+        "
+      >
+        What I do?
+      </div>
+      <div class="flex_container" style="justify-content: space-around">
+        <div class="rounded_card" >
+          <i
+            class="fa-solid fa-code"
+            style="font-size: 35px; color: var(--primary)"
+          ></i>
+          <br />
+          <div
+            style="
+              font-size: 18px;
+              font-weight: bold;
+              margin-top: 10px;
+              margin-bottom: 10px;
+            "
+          >
+            Web Development
+          </div>
+          <div style="font-size: 14px; line-height: 20px">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus ut
+            aliquam incidunt aut veritatis nesciunt in mollitia dolorem velit
+            illo. <br>
+            <progress value="70" max="100"></progress>
+          </div>
+        </div>
+        <div class="rounded_card" >
+          <i
+            class="fa-solid fa-mobile"
+            style="font-size: 35px; color: var(--primary)"
+          ></i>
+          <br />
+          <div
+            style="
+              font-size: 18px;
+              font-weight: bold;
+              margin-top: 10px;
+              margin-bottom: 10px;
+            "
+          >
+            App Development
+          </div>
+          <div style="font-size: 14px; line-height: 20px">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore,
+            optio asperiores saepe explicabo ducimus nesciunt corporis excepturi
+            quaerat animi quam?In Progress...<br />
+            <progress value="5" max="100"></progress>
+          </div>
+        </div>
+        <div class="rounded_card" >
+          <i
+            class="fa-brands fa-python"
+            style="font-size: 35px; color: var(--primary)"
+          ></i>
+          <br />
+          <div
+            style="
+              font-size: 18px;
+              font-weight: bold;
+              margin-top: 10px;
+              margin-bottom: 10px;
+            "
+          >
+            Python Development
+          </div>
+          <div style="font-size: 14px; line-height: 20px">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat
+            quas, temporibus minus autem molestias eaque, porro obcaecati ullam
+            repudiandae in ipsum ut numquam dignissimos quia quasi illo cum
+            eveniet libero.In Progress...,<br/>
+            <progress value="10" max="100"></progress>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="divider"></div>
+    <div id = "projects" style="max-width: 1000px; margin: auto; text-align: center">
+    <div
+        style="
+          font-size: 30px;
+          font-weight: bold;
+          color: var(--primary);
+          margin-top: 20px;
+        "
+      >
+        My Projects and Achievements
+      </div>
+      <div class="flex_container" style="justify-content: space-around">
+        <div class="rounded_card2" >
+          <i
+            class="fa-solid fa-truck-fast"
+            style="font-size: 35px; color: var(--primary)"
+          ></i>
+          
+          <br />
+          <div
+            style="
+              font-size: 18px;
+              font-weight: bold;
+              margin-top: 10px;
+              margin-bottom: 10px;
+            "
+          >
+            Shortest Path Finder
+          </div>
+          <div style="font-size: 14px; line-height: 20px">
+            This was my first project as a College Student. This was a team project. We calculated shortest distance between each and every distance between each and avery districts of Province 3 of Nepal.  <br>
+           
+          </div>
+        </div>
+        <div class="rounded_card2" >
+          <i
+            class="fa-solid fa-mobile"
+            style="font-size: 35px; color: var(--primary)"
+          ></i>
+          <br />
+          <div
+            style="
+              font-size: 18px;
+              font-weight: bold;
+              margin-top: 10px;
+              margin-bottom: 10px;
+            "
+          >
+            App Development
+          </div>
+          <div style="font-size: 14px; line-height: 20px">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore,
+            optio asperiores saepe explicabo ducimus nesciunt corporis excepturi
+            quaerat animi quam?In Progress...<br />
+            <progress value="5" max="100"></progress>
+          </div>
+        </div>
+        <div class="rounded_card2" >
+          <i
+            class="fa-brands fa-python"
+            style="font-size: 35px; color: var(--primary)"
+          ></i>
+          <br />
+          <div
+            style="
+              font-size: 18px;
+              font-weight: bold;
+              margin-top: 10px;
+              margin-bottom: 10px;
+            "
+          >
+            Python Development
+          </div>
+          <div style="font-size: 14px; line-height: 20px">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat
+            quas, temporibus minus autem molestias eaque, porro obcaecati ullam
+            repudiandae in ipsum ut numquam dignissimos quia quasi illo cum
+            eveniet libero.In Progress...,<br/>
+            <progress value="10" max="100"></progress>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="divider"></div>
+    <div class="primary_banner">
+      <div
+        style="
+          color: white;
+          font-weight: bold;
+          text-align: center;
+          font-size: 20px;
+        "
+      >
+        Do you have any Projects in Mind?<br /><a href="mailto: girikabin505@gmail.com">
+        <div><br /><button class="primary_button" style="background:white; color: var(--primary); box-shadow:none; width:150px">Mail Me</button></a></div>
+      </div>
+    </div>
+    
+
+    <div id = "contact_id" class="contact_container" style="max-width: 900px; margin:auto; margin-top:20px; margin-bottom :20px;">
+      <div class="flex_container"  style="  justify-content: space-between;">
+       <div><div class="contact_image"></div></div> 
+        <div id ="contactus"><div style="font-size: 30px; font-weight:bold; color:var(--primary)">Contact Us:</div><br>
+        <form action="./index.html" method="get">
+          Name: <br />
+          <input type="text" name = "person_name"><br/>
+          Mobile Number: <br /> <input type="text" name ="mboile_number"><br/>
+          Message: <br /><textarea></textarea><br/>
+          <button class="primary_button" type="submit">Send Message</button>
+        </form>
+      </div>
+    </div>
+    </div>
+<div class="footer">
+  Kathmandu, Nepal<br />
+  kabingiri.com.np &copy; 2023. All rights reserved.
+</div>
+
+  </body>
+</html>

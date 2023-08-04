@@ -1,0 +1,156 @@
+:root {
+  --primary: #2b6777;
+  --lightprimary: #c8d8e4;
+  --background: #f2f2f2;
+}
+
+* {
+  font-family: "Montserrat", sans-serif;
+}
+body,
+html {
+  margin: 0px;
+  padding: 0px;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.hamburger-menu {
+  display: none;
+  cursor: pointer;
+}
+
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color: var(--primary);
+  margin: 5px 0;
+}
+
+input,
+textarea {
+  border: 1px solid #e7e7e7;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+.divider {
+  background: #2b6777;
+  height: 2px;
+  max-width: 500px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.rounded_card {
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  margin: 20px;
+  box-shadow: 2px 2px 5px 5px #e7e7e7;
+}
+.rounded_card2 {
+  padding: 20px;
+  background-color: var(--lightprimary);
+  border-radius: 20px;
+  margin: 20px;
+  box-shadow: 2px 2px 5px 5px #e7e7e7;
+}
+
+.rounded_card:hover {
+  cursor: pointer;
+  background-color: #e7e7e7;
+}
+.rounded_card2:hover {
+  cursor: pointer;
+  background-color: #e7e7e7;
+}
+
+.nav_item {
+  font-weight: bold;
+}
+
+.flex_container {
+  display: flex;
+}
+
+.justifier_navbar {
+  justify-content: space-between;
+}
+.logo_wrapper {
+  border: 1px dashed var(--primary);
+  font-weight: bold;
+  font-size: 13px;
+  padding: 7px;
+  letter-spacing: 5px;
+  background-color: var(--primary);
+  color: white;
+}
+
+.navbar {
+  background: var(--lightprimary);
+  padding: 20px;
+  /* position: fixed;
+  width: 100%;
+  z-index: 2; */
+}
+
+.profile_image {
+  height: 300px;
+  width: 1000px;
+  border-radius: 50%;
+  background: url("./../images/main.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.primary_button {
+  cursor: pointer;
+  margin-top: 10px;
+  padding: 15px;
+  border-radius: 10px;
+  border: 0;
+  background-color: var(--primary);
+  color: white;
+  font-weight: bold;
+  box-shadow: 5px 5px 5px 5px #ccc;
+  transition: all 0.2s;
+}
+
+.primary_button:hover {
+  color: var(--primary);
+  background-color: white;
+  border-width: 2px;
+  border-style: solid;
+  border-color: var(--primary);
+}
+
+.primary_banner {
+  background: var(--primary);
+  padding: 50px;
+}
+.rounded_card {
+  max-width: 33%;
+}
+#contactus {
+  width: 500px;
+}
+
+.contact_image {
+  background: url(../images/contact.jpg);
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+  background-size: cover;
+  background-position: center;
+}
+.footer {
+  background: var(--primary);
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
