@@ -59,6 +59,28 @@
   #contactus {
     width: auto;
   }
+  .social_media_icons {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .social_media_icons a {
+    margin: 0 8px;
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    color: white;
+    font-size: 18px;
+    line-height: 36px;
+    text-align: center;
+    transition: 0.3s ease;
+  }
+
+  .social_media_icons a:hover {
+    background-color: #fff;
+    color: var(--primary);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
   .footer {
     width: auto;
   }
